@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color:white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.choice{
+    height: 200px;
+    width:200px;
+}
+.choice img{
+    height:150px;
+    width:150px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 3rem;
+}
+.rockbox{
+    height: 150px;
+    width: 200px;
+}
+.scoreborad{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 40px;  
+    margin:40px;  
+
+}
+#msg{
+    background-color: #081b31;
+    color:#fff;
+    font-size: 2rem;
+    display: inline;
+    padding:1rem;
+    border-radius: 2rem;
+}
